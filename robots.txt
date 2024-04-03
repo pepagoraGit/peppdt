@@ -1,0 +1,34 @@
+User-agent: *
+
+# Directories
+Disallow: /application/
+Disallow: /catelog/
+Disallow: /controller/
+Disallow: /includes/
+Disallow: /upload/*
+Disallow: /views/
+
+#Links
+Disallow: /helper/*
+Disallow: /connect/logout
+Disallow: /pfm/*
+Disallow: /browse/*
+Disallow: /category/browseProducts/*
+Disallow: /category/browseSuppliers/*
+Disallow: /category/ibrowseProducts/*
+Disallow: /category/ibrowseProducts/*/*
+Disallow: /category/ibrowseProducts/*/*/*
+Disallow: /category/ibrowseProducts/*/*/*/*/
+Disallow: /category/ibrowseProducts/*/*/*/*/*/
+Disallow: /category/ibrowseProducts/*/*/*/*/*/*/
+Disallow: /category/ibrowseProducts/*/*/*/*/*/*/*/
+Disallow: /category/ibrowseProductsGrid/*
+Disallow: /category/ibrowseSuppliers/*
+Disallow: /category/ibrowseDeals/*
+Disallow: /deals/*
+Disallow: /SC-*/*
+Disallow: /PC-*/*
+Disallow: /product/search/*
+Disallow: /about/press
+#Sitemap
+Sitemap: http://www.pepagora.com/sitemap.xml
